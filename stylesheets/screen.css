@@ -1,0 +1,155 @@
+/*Theme Name:  tmdesigns
+ *Theme URI:  http://www.travismichael.net
+ *Description:  A premium theme by Travis Heller of Travismichael.net.
+ *Version:  1.0
+ *Author:  Travis Heller
+ *Author URI:  http://www.travismichael.net */
+/* * Travismichael Designs and Portfolio
+ * * Copyright 2012, Travis M. Heller
+ * * www.travismichael.net */
+/* Table of Content
+ *==================================================
+ *  #Top Header Bar
+ *  #Middle Content Styles
+ *  #Bottom Styling [Recent Work and Thumbnail Section]
+ *  #Footer
+ *  #Favorite
+ *  #Contac
+ *  #Navigation
+ *  #Work Page Styling
+ *  #Service Page Styling */
+/* #Site Styles
+ *================================================== */
+/* #VARIALBLES FOR SASS/COMPASS
+ *================================================== */
+/* #Site Styles
+ *================================================== */
+/* ================= MAKE HTML TAGS DISPLAY AS BLOCK ELEMENTS =============================== */
+/* line 29, ../sass/screen.sass */
+article,aside,details,div,figure,footer,header,hgroup,nav,section,summary {
+  display: block;
+}
+
+/* ================= MAKE HTML TAGS DISPLAY AS BLOCK ELEMENTS =============================== */
+/* line 42, ../sass/screen.sass */
+body {
+  background: black;
+  color: #f2f2f2;
+  font-family: helvetica, sans-serif;
+}
+
+/* line 47, ../sass/screen.sass */
+#wrapper {
+  width: 800px;
+  margin: 20px auto;
+  background: #111111;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* line 54, ../sass/screen.sass */
+#container {
+  position: relative;
+  width: 300px;
+  padding: 0;
+  float: left;
+}
+
+/* line 59, ../sass/screen.sass */
+h1 {
+  font-size: 24px;
+  margin: 5px;
+  padding: 0;
+  color: #f2f2f2;
+}
+
+/* line 65, ../sass/screen.sass */
+h2 {
+  font-size: 16px;
+  color: #217bb5;
+}
+
+/* line 68, ../sass/screen.sass */
+h1 + h2,p {
+  color: #217bb5;
+}
+
+/* line 71, ../sass/screen.sass */
+.workouts_wrapper {
+  width: 600px;
+  clear: both;
+  float: left;
+}
+
+/* line 75, ../sass/screen.sass */
+.workouts_wrapper h3 {
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  background: #7fb521;
+  text-shadow: 1px 2px 2px black;
+  cursor: pointer;
+}
+
+/* line 83, ../sass/screen.sass */
+.clear {
+  clear: both;
+}
+
+/* line 86, ../sass/screen.sass */
+.left {
+  float: left;
+  font-size: 10px;
+  padding: 10px;
+  border-right: 1px solid #222222;
+  margin: 5px;
+}
+
+/* line 93, ../sass/screen.sass */
+.right {
+  float: right;
+}
+
+/* line 96, ../sass/screen.sass */
+.clear {
+  clear: both;
+}
+
+/* line 99, ../sass/screen.sass */
+ul {
+  font-weight: bold;
+  margin: 20px;
+  width: 150px;
+  float: left;
+}
+
+/* line 104, ../sass/screen.sass */
+li {
+  background: #f0f0f0;
+  padiding: 5px;
+  list-style: none;
+  color: #222222;
+  margin: 10px auto 10px;
+  text-align: center;
+}
+
+/* line 112, ../sass/screen.sass */
+.form {
+  border: 1px solid black;
+  float: left;
+  height: 300px;
+  margin: 10px 30px 10px;
+  padding: 10px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: #7fb521;
+
+  -webkit-box-shadow: 5px black;
+  box-shadow: 5px black;
+}
+
+/* line 123, ../sass/screen.sass */
+.form h3,.form h2,.form p {
+  color: #f2f2f2;
+}
